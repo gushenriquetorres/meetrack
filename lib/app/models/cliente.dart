@@ -4,6 +4,7 @@ class Cliente {
   String cnpj;
   String telefone;
   String cidade;
+  String gerente;
 
   Cliente({
     required this.icone,
@@ -11,5 +12,6 @@ class Cliente {
     required this.cnpj,
     required this.telefone,
     required this.cidade,
+    required this.gerente,
   });
 }
